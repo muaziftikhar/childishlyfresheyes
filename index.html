@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Muaz — Creative Coder & Pixel Artist</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    :root { --bg:#0b0b0b; --fg:#f0f0e6; --accent:#e6c800; }
+    body { margin:0; font-family:Inter, system-ui, sans-serif; background:var(--bg); color:var(--fg); }
+    .wrap { max-width:900px; margin:0 auto; padding:64px 24px; }
+    .badge { display:inline-block; padding:6px 10px; border:1px solid #333; border-radius:12px; font-size:12px; letter-spacing:.04em; }
+    h1 { font-size:48px; line-height:1.05; margin:16px 0 12px; }
+    p { max-width:68ch; line-height:1.6; opacity:.9; }
+    .accent { color:var(--accent); text-shadow:0 0 8px rgba(230,200,0,.25); }
+    .grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:28px; }
+    .card { padding:16px; border:1px solid #222; border-radius:14px; background:linear-gradient(180deg,#0f0f0f,#0b0b0b); transition:transform .25s ease, box-shadow .25s ease; }
+    .card:hover { transform:translateY(-4px); box-shadow:0 6px 18px rgba(0,0,0,.35); }
+    footer { margin-top:64px; opacity:.6; font-size:14px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <span class="badge">Portfolio</span>
+    <h1>Hello, I’m <span class="accent">Muaz</span></h1>
+    <p>Creative coder & pixel artist. I build interactive desktop buddies, animated sprites, and eerie game-inspired worlds.</p>
+    <div class="grid">
+      <div class="card">Project slot A</div>
+      <div class="card">Project slot B</div>
+    </div>
+    <footer>© Muaz — GitHub Pages starter</footer>
+  </main>
+</body>
+</html>
